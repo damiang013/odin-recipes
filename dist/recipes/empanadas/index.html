@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/styles.css">
+    <title>Empanadas de carne</title>
+    <link rel="stylesheet" href="../../css/styles.css">
+    <link rel="shortcut icon" href="../../img/arg.ico" type="image/x-icon">
+</head>
+<body>
+    <main class="flex flex-col mx-5 mb-10 lg:items-center">
+        <div class="lg:max-w-[70%]">
+            <button class="font-lato text-xl mb-5 border-2 border-t-0 px-3 py-2 rounded-b-lg bg-white shadow border-black" id="back-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" class="w-6 h-6 -rotate-90"><path fill="currentColor" d="M11 19.5V7.914l-4.5 4.5L5.086 11L12 4.086L18.914 11L17.5 12.414l-4.5-4.5V19.5z"/></svg>
+            </button>
+            <h1 class="text-5xl lg:text-7xl font-roboto">Empanadas de carne</h1>
+            <div class="flex flex-col mt-2 gap-3 lg:flex-row lg:gap-6">
+                <img src="../../img/empanadas.jpg" alt="Milanesas fritas" class="aspect-[5/3] rounded-xl lg:w-[25%]">
+                <div class="font-lato text-lg leading-6 bg-white shadow-xl p-4 rounded-xl lg:text-2xl flex flex-col gap-2">
+                    <p>
+                        Estas empanadas salteñas son una de las tantas recetas tradicionales patrias, consideradas por muchos las mejores. 
+                    </p>
+                    <p>
+                        En la actualidad se suelen preparar de la misma forma que hace doscientos años, con carne magra, cebolla de verdeo, comino, pimentón, mucho ají y es que son tan ancestrales como el pan y forman parte de muchas tradiciones argentinas.
+                    </p>
+                </div>
+            </div>
+            <div class="lg:flex lg:gap-5">
+                <div class="bg-white shadow-xl p-4 rounded-xl mt-6 mb-3">
+                    <h2 class="font-roboto text-2xl underline mb-1 lg:text-3xl">Ingredientes</h2>
+                    <span class="text-xl font-roboto font-bold mb-3 block">Para aproximadamente 30 empanadas</span>
+                    <ul class="font-lato text-lg lg:text-xl lg:w-[400px]">
+                        <li>- 500 gramos de carne</li>
+                        <li>- 250 gramos de cebolla</li>
+                        <li>- 250 gramos de papas</li>
+                        <li>- 1/2 pimentón rojo</li>
+                        <li>- 3 huevos duros</li>
+                        <li>- 60 gramos de grasa de vaca</li>
+                        <li>- 1 puñado de perejil fresco</li>
+                        <li>- 1 cucharada de pimentón rojo molido</li>
+                        <li>- 1 cucharada de comino</li>
+                        <li>- 1 cucharada de pimienta blanca</li>
+                        <li>- 1 pizca de sal a gusto</li>
+                        <li>- 4 ramas de cebolla de verdeo</li>
+                    </ul>
+                </div>
+                <div class="border-2 border-dashed border-black px rounded-xl p-4 lg:mt-6 lg:mb-3">
+                    <h3 class="font-roboto text-2xl underline mb-2 lg:text-3xl">Preparación:</h3>
+                    <ol class="list-decimal list-inside font-lato text-lg flex flex-col gap-2 leading-6 lg:text-xl">
+                        <li>Picar bien chiquito la cebolla y el pimiento.</li>
+                        <li>Para el relleno, sofreír toda la cebolla picada en la grasa bien caliente. Cuando comience a dorarse, añadir el pimentón picado y mezclar por 5 minutos.</li>
+                        <li>Cuando la cebolla cristalice, agregar las especias: el comino (no puede faltar), el pimentón rojo molido, la pimienta blanca.</li>
+                        <li>Cocinar las papas cortadas en cubos pequeños, en agua hirviendo, solo por 5 minutos.</li>
+                        <li>Revuelto todo, agregar la carne bien cortada. Mezclar todo y dejar que la carne se cocine a fuego bajo por 15 minutos. Agregar las papas y continuar. Retirar del fuego minutos antes de terminar la cocción y dejar enfriar. Mientras precalentar el horno a 250 °C.</li>
+                        <li>Agregar la cebolla de verdeo picada y los huevos duros picados justo antes de armar las empanadas. </li>
+                        <li>Cocinar en horno a 250 °C durante unos 12 minutos o freír en abundante grasa.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+        const backBtn = document.getElementById('back-btn');
+
+        backBtn.addEventListener('click', () => {
+            window.history.back();
+        })
+    </script>
+</body>
+</html>

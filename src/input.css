@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Lato&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    color-scheme: light;
+}
+
+body {
+    background-color: #ebe6d9;
+}
+
+.scale-up-animation {
+    transition: transform 0.2s ease-out;
+}
+
+.scale-up-animation:hover {
+    transform: scale(1.1);
+}
+

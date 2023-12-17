@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guiso de lentejas</title>
+    <link rel="stylesheet" href="../../css/styles.css">
+    <link rel="shortcut icon" href="../../img/arg.ico" type="image/x-icon">
+</head>
+<body>
+    <main class="flex flex-col mx-5 lg:items-center">
+        <div class="lg:max-w-[70%]">
+            <button class="font-lato text-xl mb-5 border-2 border-t-0 px-3 py-2 rounded-b-lg bg-white shadow border-black" id="back-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" class="w-6 h-6 -rotate-90"><path fill="currentColor" d="M11 19.5V7.914l-4.5 4.5L5.086 11L12 4.086L18.914 11L17.5 12.414l-4.5-4.5V19.5z"/></svg>
+            </button>
+            <h1 class="text-5xl lg:text-7xl font-roboto">Guiso de lentejas</h1>
+            <div class="flex flex-col mt-2 gap-3 lg:flex-row lg:gap-6">
+                <img src="../../img/guiso.jpg" alt="Milanesas fritas" class="aspect-[5/3] rounded-xl lg:w-[25%]">
+                <p class="font-lato text-lg leading-6 bg-white shadow-xl p-4 rounded-xl lg:text-2xl">
+                    El guiso de lentejas tradicional es un guiso muy popular en Argentina. Existen muchas versiones ya que se le puede añadir carnes, vegetales, salsas... Esta es una fórmula fácil que queda deliciosa. 
+                </p>
+            </div>
+            <div class="lg:flex lg:gap-5">
+                <div class="bg-white shadow-xl p-4 rounded-xl mt-6 mb-3 lg:w-[400px]">
+                    <h2 class="font-roboto text-2xl underline mb-1 lg:text-3xl">Ingredientes</h2>
+                    <span class="text-xl font-roboto font-bold mb-3 block">Rinde aproximadamente 6 porciones</span>
+                    <ul class="font-lato text-lg lg:text-xl">
+                        <li>- 600 gramos de lentejas</li>
+                        <li>- 150 gramos de panceta ahumada</li>
+                        <li>- 500 gramos de roast beef</li>
+                        <li>- 2 cebollas </li>
+                        <li>- 2 cebollas de verdeo</li>
+                        <li>- 2 latas de tomates perita</li>
+                        <li>- 3 cucharadas de aceite</li>
+                        <li>- Caldo hasta cubrir</li>
+                        <li>- 2 papas</li>
+                        <li>- 1 chorizo colorado</li>
+                        <li>- 1 hoja de laurel</li>
+                        <li>- Sal, pimienta y ají molido, a gusto</li>
+                        <li>- 1/4 de morrón rojo</li>
+                    </ul>
+                </div>
+                <div class="border-2 border-dashed border-black px rounded-xl p-4 lg:mt-6 lg:mb-3">
+                    <h3 class="font-roboto text-2xl underline mb-2 lg:text-3xl">Preparación:</h3>
+                    <ol class="list-decimal list-inside font-lato text-lg flex flex-col gap-2 leading-6 lg:text-xl">
+                        <li>Remojar las lentejas, mínimo 3 horas.</li>
+                        <li>Picar todos los vegetales y cortar las papas en cubos.</li>
+                        <li>Cortar la panceta en bastones y la carne en cubos. Dorarlas en una olla con el aceite a fuego lento, girando los cubos de carne para sellarlos.</li>
+                        <li>Sumar a la cacerola la cebolla, el morrón y el verdeo. Rehogar unos minutos.</li>
+                        <li>Agregar el tomate y cocinar unos minutos.</li>
+                        <li>Incorporar las lentejas (coladas) al guiso. Cubrir con caldo de verduras o carne y cocinar por 30 minutos.</li>
+                        <li>A mitad de cocción, añadir laurel y ají molido.</li>
+                        <li>Sumar las papas y el chorizo colorado en ruedas. Cocinar por 12 minutos más, revolviendo cada tanto.</li>
+                        <li>Corroborar sazón y servir. Acompañar con salsa picante.</li>                
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+        const backBtn = document.getElementById('back-btn');
+
+        backBtn.addEventListener('click', () => {
+            window.history.back();
+        })
+    </script>
+</body>
+</html>

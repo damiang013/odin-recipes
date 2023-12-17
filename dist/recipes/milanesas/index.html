@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milanesas fritas</title>
+    <link rel="stylesheet" href="../../css/styles.css">
+    <link rel="shortcut icon" href="../../img/arg.ico" type="image/x-icon">
+</head>
+<body>
+    <main class="flex flex-col mx-5 mb-10 lg:items-center">
+        <div class="lg:max-w-[70%]">
+            <button class="font-lato text-xl mb-5 border-2 border-t-0 px-3 py-2 rounded-b-lg bg-white shadow border-black" id="back-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 24 24" class="w-6 h-6 -rotate-90"><path fill="currentColor" d="M11 19.5V7.914l-4.5 4.5L5.086 11L12 4.086L18.914 11L17.5 12.414l-4.5-4.5V19.5z"/></svg>
+            </button>
+            <h1 class="text-5xl lg:text-7xl font-roboto">Milanesas</h1>
+            <div class="flex flex-col mt-2 gap-3 lg:flex-row lg:gap-6">
+                <img src="../../img/milanesa.jpg" alt="Milanesas fritas" class="aspect-[5/3] rounded-xl lg:w-[25%]">
+                <p class="font-lato text-lg leading-6 bg-white shadow-xl p-4 rounded-xl lg:text-2xl">
+                    La milanesa se prepara con unas finas rebanadas de carne de res, pollo, ternera o a veces, cerdo. Cada rebanada se sumerge en huevos batidos que se sazonan con sal y otros condimentos según la receta, como el ajo, el perejil o el orégano. A continuación, cada rebanada se cubre generosamente con pan rallado y, a veces, harina, y se fríe ligeramente en un baño de aceite.
+                </p>
+            </div>
+            <div class="lg:flex lg:gap-5">
+                <div class="bg-white shadow-xl p-4 rounded-xl mt-6 mb-3 lg:w-[300px]">
+                    <h2 class="font-roboto text-2xl underline mb-1 lg:text-3xl">Ingredientes</h2>
+                    <span class="text-xl font-roboto font-bold mb-3 block">Rinde aproximadamente 4 porciones</span>
+                    <ul class="font-lato text-lg lg:text-xl">
+                        <li>- 1 kg de solomillo de ternera , en rodajas finas (de aproximadamente 1 centímetro)</li>
+                        <li>- 2 huevos batidos</li>
+                        <li>- 2 dientes de ajo picados</li>
+                        <li>- 3 cucharadas de perejil picado</li>
+                        <li>- Sal</li>
+                        <li>- Pimienta negra</li>
+                        <li>- Aceite vegetal</li>
+                    </ul>
+                </div>
+                <div class="border-2 border-dashed border-black px rounded-xl p-4 lg:mt-6 lg:mb-3">
+                    <h3 class="font-roboto text-2xl underline mb-2 lg:text-3xl">Preparación:</h3>
+                    <ol class="list-decimal list-inside font-lato text-lg flex flex-col gap-2 leading-6 lg:text-xl">
+                        <li>Retire el exceso de grasa y los nervios de las rebanadas de carne.</li>
+                        <li>Ablande las rebanadas de carne muy ligeramente con un mazo.</li>
+                        <li>Mezcle el ajo y el perejil con los huevos batidos, la sal y la pimienta.</li>
+                        <li>Sumerja las rebanadas de carne en los huevos batidos, mezcle bien y reserve en un lugar fresco durante 45 minutos.</li>
+                        <li>Vierta el aceite en una sartén a fuego medio-alto y caliente a 170°C.</li>
+                        <li>Cubra generosamente cada rebanada de carne con el pan rallado.</li>
+                        <li>Fría la milanesa unos minutos por cada lado.</li>
+                        <li>Retírela de la sartén y colóquela en un plato forrado con toallas de papel.</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script>
+        const backBtn = document.getElementById('back-btn');
+
+        backBtn.addEventListener('click', () => {
+            window.history.back();
+        })
+    </script>
+</body>
+</html>
